@@ -1,0 +1,30 @@
+PODS:
+  - "NSObject+Rx (4.4.1)":
+    - RxSwift (~> 4.3)
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
+  - Then (2.4.0)
+
+DEPENDENCIES:
+  - "NSObject+Rx"
+  - RxCocoa
+  - RxSwift
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - "NSObject+Rx"
+    - RxCocoa
+    - RxSwift
+    - Then
+
+SPEC CHECKSUMS:
+  "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+
+PODFILE CHECKSUM: 3974b096939ee77b16edb010c2e319752984c798
+
+COCOAPODS: 1.5.3
