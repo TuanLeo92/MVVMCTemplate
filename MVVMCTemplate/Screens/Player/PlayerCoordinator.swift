@@ -19,8 +19,9 @@ struct PlayerCoordinator: PlayerCoordinatorType {
     
     func start() {
         let playerVC = PlayerViewController(nibName: "PlayerViewController", bundle: nil)
-        let viewModel = PlayerViewModel(coordinator: self)
-        playerVC.viewModel = viewModel
+        let viewModel = PlayerViewModel()
+        playerVC.bindViewModelAndCoordinator(model: viewModel, andCoordinator: self)
+        
         navigation.pushViewController(playerVC, animated: true)
     }
     

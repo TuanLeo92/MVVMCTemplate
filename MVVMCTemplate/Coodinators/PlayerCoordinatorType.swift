@@ -6,6 +6,6 @@
 //  Copyright © 2018 Le Tuan. All rights reserved.
 //
 
-protocol PlayerCoordinatorType: Coordinator {
+protocol PlayerCoordinatorType: CoordinatorType {
     
 }

@@ -19,8 +19,9 @@ struct TeamCoordinator: TeamCoordinatorType {
     
     func start() {
         let teamVC = TeamViewController(nibName: "TeamViewController", bundle: nil)
-        let teamModel = TeamViewModel(coordinator: self)
-        teamVC.viewModel = teamModel
+        let teamModel = TeamViewModel()
+        teamVC.bindViewModelAndCoordinator(model: teamModel, andCoordinator: self)
+        
         let roootNavigation = UINavigationController(rootViewController: teamVC)
         window?.rootViewController = roootNavigation
     }

@@ -10,12 +10,14 @@
 		00C9E71428A4890E9BEE2DD5 /* Pods_MVVMCTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153C6873D2F9E5AE904B064C /* Pods_MVVMCTemplate.framework */; };
 		1718366C21A24F2300BC7E7B /* TeamViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718366B21A24F2300BC7E7B /* TeamViewModelType.swift */; };
 		1718366E21A24FF800BC7E7B /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718366D21A24FF800BC7E7B /* Team.swift */; };
-		1718367021A254A500BC7E7B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718366F21A254A500BC7E7B /* ViewModel.swift */; };
-		17318683219E5E38007604C5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17318682219E5E38007604C5 /* Coordinator.swift */; };
+		1718367021A254A500BC7E7B /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718366F21A254A500BC7E7B /* ViewModelType.swift */; };
+		17318683219E5E38007604C5 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17318682219E5E38007604C5 /* CoordinatorType.swift */; };
 		1733D5A5219D175700F58615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1733D5A3219D175700F58615 /* Main.storyboard */; };
 		1733D5A7219D175A00F58615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1733D5A6219D175A00F58615 /* Assets.xcassets */; };
 		1733D5AA219D175A00F58615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1733D5A8219D175A00F58615 /* LaunchScreen.storyboard */; };
 		1733D5B5219D175A00F58615 /* MVVMCTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1733D5B4219D175A00F58615 /* MVVMCTemplateTests.swift */; };
+		17434E2021A65552000D16E1 /* UIViewController+Extesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17434E1F21A65552000D16E1 /* UIViewController+Extesions.swift */; };
+		17434E2221A65A89000D16E1 /* BindableVMCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17434E2121A65A89000D16E1 /* BindableVMCType.swift */; };
 		17757D56219FC40B003E9213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757D55219FC40B003E9213 /* AppDelegate.swift */; };
 		17757D59219FC4AC003E9213 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17757D57219FC4AC003E9213 /* TeamViewController.swift */; };
 		17757D5A219FC4AC003E9213 /* TeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17757D58219FC4AC003E9213 /* TeamViewController.xib */; };
@@ -48,8 +50,8 @@
 		153C6873D2F9E5AE904B064C /* Pods_MVVMCTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMCTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1718366B21A24F2300BC7E7B /* TeamViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModelType.swift; sourceTree = "<group>"; };
 		1718366D21A24FF800BC7E7B /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
-		1718366F21A254A500BC7E7B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		17318682219E5E38007604C5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1718366F21A254A500BC7E7B /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		17318682219E5E38007604C5 /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
 		1733D59C219D175700F58615 /* MVVMCTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMCTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1733D5A4219D175700F58615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1733D5A6219D175A00F58615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +60,8 @@
 		1733D5B0219D175A00F58615 /* MVVMCTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1733D5B4219D175A00F58615 /* MVVMCTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCTemplateTests.swift; sourceTree = "<group>"; };
 		1733D5B6219D175A00F58615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17434E1F21A65552000D16E1 /* UIViewController+Extesions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extesions.swift"; sourceTree = "<group>"; };
+		17434E2121A65A89000D16E1 /* BindableVMCType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableVMCType.swift; sourceTree = "<group>"; };
 		1753363821A401C200390E2A /* MVVMCTemplate-Briging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVVMCTemplate-Briging-Header.h"; sourceTree = "<group>"; };
 		17757D55219FC40B003E9213 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17757D57219FC4AC003E9213 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 			children = (
 				1731867F219E5E1E007604C5 /* ViewModel */,
 				17318680219E5E1E007604C5 /* Coordinator */,
+				17434E2121A65A89000D16E1 /* BindableVMCType.swift */,
 			);
 			path = Architecture;
 			sourceTree = "<group>";
@@ -152,7 +157,7 @@
 		1731867F219E5E1E007604C5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				1718366F21A254A500BC7E7B /* ViewModel.swift */,
+				1718366F21A254A500BC7E7B /* ViewModelType.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -160,7 +165,7 @@
 		17318680219E5E1E007604C5 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				17318682219E5E38007604C5 /* Coordinator.swift */,
+				17318682219E5E38007604C5 /* CoordinatorType.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 				17757D69219FCDC0003E9213 /* Models */,
 				17757D51219FC3E1003E9213 /* AppDelegate */,
 				17757D52219FC3E1003E9213 /* Screens */,
+				17434E1E21A6539D000D16E1 /* Extensions */,
 				1733D5A3219D175700F58615 /* Main.storyboard */,
 				1733D5A6219D175A00F58615 /* Assets.xcassets */,
 				1733D5A8219D175A00F58615 /* LaunchScreen.storyboard */,
@@ -212,6 +218,14 @@
 				1733D5B6219D175A00F58615 /* Info.plist */,
 			);
 			path = MVVMCTemplateTests;
+			sourceTree = "<group>";
+		};
+		17434E1E21A6539D000D16E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				17434E1F21A65552000D16E1 /* UIViewController+Extesions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		17757D51219FC3E1003E9213 /* AppDelegate */ = {
@@ -480,16 +494,18 @@
 				1718366E21A24FF800BC7E7B /* Team.swift in Sources */,
 				17757D56219FC40B003E9213 /* AppDelegate.swift in Sources */,
 				17757D68219FCD30003E9213 /* TeamCoordinatorType.swift in Sources */,
-				1718367021A254A500BC7E7B /* ViewModel.swift in Sources */,
+				1718367021A254A500BC7E7B /* ViewModelType.swift in Sources */,
 				17757D6B219FCDCC003E9213 /* Player.swift in Sources */,
 				17757D77219FD078003E9213 /* PlayerCoordinator.swift in Sources */,
 				17757D59219FC4AC003E9213 /* TeamViewController.swift in Sources */,
-				17318683219E5E38007604C5 /* Coordinator.swift in Sources */,
+				17318683219E5E38007604C5 /* CoordinatorType.swift in Sources */,
 				17757D5E219FC4C7003E9213 /* TeamViewModel.swift in Sources */,
+				17434E2021A65552000D16E1 /* UIViewController+Extesions.swift in Sources */,
 				17757D75219FD06A003E9213 /* PlayerViewModel.swift in Sources */,
 				1718366C21A24F2300BC7E7B /* TeamViewModelType.swift in Sources */,
 				17757D72219FD056003E9213 /* PlayerViewController.swift in Sources */,
 				17757D6F219FD02D003E9213 /* PlayerCoordinatorType.swift in Sources */,
+				17434E2221A65A89000D16E1 /* BindableVMCType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

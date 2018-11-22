@@ -8,19 +8,27 @@
 
 import UIKit
 
-class TeamViewController: UIViewController {
+class TeamViewController: UIViewController, BindableVMCType {
 
     var viewModel: TeamViewModel!
+    var coordinator: TeamCoordinator!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
+    func bindViewModelAndCoordinator() {
+        
+    }
+}
+
+// MARK: - Actions
+extension TeamViewController {
     @IBAction private func goToPlayerAction(_ sender: UIButton) {
         guard let player = viewModel.player() else {
             return
         }
-        viewModel.coordinator.goToPlayerScreen(player)
+        coordinator.goToPlayerScreen(player)
     }
 }

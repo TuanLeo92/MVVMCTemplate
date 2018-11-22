@@ -10,6 +10,4 @@ import Foundation
 
 struct PlayerViewModel {
     
-    let coordinator: PlayerCoordinatorType
-    
 }

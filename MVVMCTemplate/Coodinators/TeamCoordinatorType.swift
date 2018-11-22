@@ -6,7 +6,7 @@
 //  Copyright © 2018 Le Tuan. All rights reserved.
 //
 
-protocol TeamCoordinatorType: Coordinator {
+protocol TeamCoordinatorType: CoordinatorType {
     
     func goToPlayerScreen(_ player: Player)
     

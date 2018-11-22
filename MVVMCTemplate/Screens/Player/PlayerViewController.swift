@@ -8,19 +8,24 @@
 
 import UIKit
 
-class PlayerViewController: UIViewController {
+class PlayerViewController: UIViewController, BindableVMCType {
 
     var viewModel: PlayerViewModel!
+    var coordinator: PlayerCoordinator!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(viewModel.debugDescription)
+    }
+    
+    func bindViewModelAndCoordinator() {
+        
     }
 }
 
 // MARK: - Actions
 extension PlayerViewController {
     @IBAction private func goBackAction() {
-        viewModel.coordinator.finish()
+        coordinator.finish()
     }
 }

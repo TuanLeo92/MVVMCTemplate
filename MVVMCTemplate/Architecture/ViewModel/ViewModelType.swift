@@ -1,5 +1,5 @@
 //
-//  ViewModel.swift
+//  ViewModelType.swift
 //  MVVMCTemplate
 //
 //  Created by Le Tuan on 19/11/18.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-protocol ViewModel {
+protocol ViewModelType {
     
     associatedtype Input
     associatedtype Output
-    
+        
     func handle(_ input: Input) -> Output
     
 }

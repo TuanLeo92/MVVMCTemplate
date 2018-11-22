@@ -7,9 +7,8 @@
 //
 
 import Foundation
-import RxSwift
 
-protocol TeamViewModelType {
+protocol TeamViewModelType: ViewModelType {
     
     func fetchTeamFromLocal() -> Observable<Team>
     func updateTeamLogo(_ logoString: String)

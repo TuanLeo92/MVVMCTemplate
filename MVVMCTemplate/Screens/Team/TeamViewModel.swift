@@ -7,16 +7,22 @@
 //
 
 import Foundation
-import RxSwift
 
 struct TeamViewModel: TeamViewModelType {
     
-    private var team: Team = Team()
-    let coordinator: TeamCoordinatorType
-    
-    init(coordinator: TeamCoordinatorType) {
-        self.coordinator = coordinator
+    struct Input {
+        
     }
+    
+    struct Output {
+    
+    }
+    
+    func handle(_ input: Input) -> Output {
+        return Output()
+    }
+    
+    private var team: Team = Team.test()
     
     func fetchTeamFromLocal() -> Observable<Team> {
         return Observable.just(Team())
